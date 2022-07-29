@@ -1,5 +1,3 @@
-import cv from "./CV Iván Sánchez.pdf";
-
 export default function CvButton() {
   return (
     <>
