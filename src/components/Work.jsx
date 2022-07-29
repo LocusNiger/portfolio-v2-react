@@ -13,7 +13,7 @@ export default function Work() {
             img="./img/project-5.png"
             title="My portfolio"
             description="This is the project in which I invested the most time in the design. It reflects the style of websites I try to create. I hope you like it!"
-            tec1="React/Vite"
+            tec1="React"
             tec2="Sass"
             tec3="JavaScript"
             deployLink="https://giffy-locusniger.vercel.app/"

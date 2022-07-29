@@ -437,6 +437,83 @@ footer {
   }
 }
 
+/* Botón CV */
+/* From uiverse.io by @barisdogansutcu */
+.download-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+
+  .download-button {
+    font-family: "Roboto Mono", monospace;
+    position: relative;
+    border-width: 0;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    z-index: 1;
+    .docs {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      min-height: 40px;
+      height: 4.5rem;
+      font-size: 1.5rem;
+      padding: 0 10px;
+      border-radius: 4px;
+      z-index: 1;
+      background-color: #fefffe;
+      border: 2px solid #000;
+      transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+    .download {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 90%;
+      margin: 0 auto;
+      z-index: -1;
+      border-radius: 4px;
+      transform: translateY(0%);
+      background-color: #7a60fe;
+      border: 2px solid black;
+      transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+      .cv-link {
+        color: white;
+      }
+    }
+  }
+  .download-button:hover {
+    margin-bottom: 2rem;
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+    .download {
+      transform: translateY(100%);
+    }
+  }
+  .download svg polyline,
+  .download svg line {
+    animation: docs 1s infinite;
+  }
+  @keyframes docs {
+    0% {
+      transform: translateY(0%);
+    }
+
+    50% {
+      transform: translateY(-15%);
+    }
+
+    100% {
+      transform: translateY(0%);
+    }
+  }
+}
+
 /* TABLET / LAPTOP */
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
   nav {
@@ -488,6 +565,9 @@ footer {
     justify-content: center;
     .skills-card {
       height: 27.6rem;
+      .skills-subcard {
+        justify-content: space-around;
+      }
     }
     margin-bottom: 5rem;
   }
@@ -592,6 +672,9 @@ footer {
     .skills-card {
       width: 100%;
       height: 27.6rem;
+      .skills-subcard {
+        justify-content: space-around;
+      }
     }
   }
   .GIT-container {

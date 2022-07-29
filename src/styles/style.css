@@ -112,7 +112,6 @@ body {
   .title-container span {
     font-size: 3.2rem;
   }
-
   .work-container .first-p {
     font-size: 3.7rem;
   }
@@ -126,7 +125,6 @@ body {
     font-size: 1.6rem;
     font-weight: 500;
   }
-
   .GIT-card .form-title {
     font-size: 2.3rem;
   }
@@ -139,11 +137,9 @@ body {
 .GIT-card form input {
     font-size: 1.8rem;
   }
-
   .footer-sections .footer-link {
     font-size: 2rem;
   }
-
   .footer-title {
     font-size: 2rem;
   }
@@ -158,7 +154,6 @@ body {
   .title-container span {
     font-size: 3.2rem;
   }
-
   .title-container h2, .title-container h3 {
     font-size: 5rem;
   }
@@ -168,14 +163,12 @@ body {
   .title-container span {
     font-size: 3.2rem;
   }
-
   .work-container .first-p {
     font-size: 3.7rem;
   }
   .work-container .fa-code {
     font-size: 3.1rem;
   }
-
   .GIT-card .form-title {
     font-size: 2.3rem;
   }
@@ -188,11 +181,9 @@ body {
 .GIT-card form input {
     font-size: 1.8rem;
   }
-
   .footer-sections .footer-link {
     font-size: 2rem;
   }
-
   .footer-title {
     font-size: 2rem;
   }
@@ -619,6 +610,10 @@ footer .footer-social .footer-social__icons .fa-linkedin {
   border-color: #fefffe #fefffe #adacac #fefffe;
   padding: 0.2rem 0;
 }
+.GIT-container .GIT-card .form-container form #name,
+.GIT-container .GIT-card .form-container form #email {
+  padding: 0.5rem;
+}
 .GIT-container .GIT-card .form-container form button {
   background-color: #fefffe;
   border: 1px solid black;
@@ -634,12 +629,97 @@ footer .footer-social .footer-social__icons .fa-linkedin {
   transform: translateY(0);
 }
 
+/* Botón CV */
+/* From uiverse.io by @barisdogansutcu */
+.download-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+.download-btn-container .download-button {
+  font-family: "Roboto Mono", monospace;
+  position: relative;
+  border-width: 0;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  z-index: 1;
+}
+.download-btn-container .download-button .docs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 40px;
+  height: 4.5rem;
+  font-size: 1.5rem;
+  padding: 0 10px;
+  border-radius: 4px;
+  z-index: 1;
+  background-color: #fefffe;
+  border: 2px solid #000;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.download-btn-container .download-button .download {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: 0 auto;
+  z-index: -1;
+  border-radius: 4px;
+  transform: translateY(0%);
+  background-color: #7a60fe;
+  border: 2px solid black;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.download-btn-container .download-button .download .cv-link {
+  color: white;
+}
+.download-btn-container .download-button:hover {
+  margin-bottom: 2rem;
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+}
+.download-btn-container .download-button:hover .download {
+  transform: translateY(100%);
+}
+.download-btn-container .download svg polyline,
+.download-btn-container .download svg line {
+  -webkit-animation: docs 1s infinite;
+          animation: docs 1s infinite;
+}
+@-webkit-keyframes docs {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-15%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes docs {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-15%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
 /* TABLET / LAPTOP */
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
   nav {
     margin: 0;
   }
-
   footer {
     margin-bottom: 0;
   }
@@ -656,12 +736,10 @@ footer .footer-social .footer-social__icons .fa-linkedin {
 footer .footer-social .footer-social__icons .fa-linkedin {
     font-size: 3.8rem;
   }
-
   .title-container {
     align-items: center;
     margin-bottom: 5rem;
   }
-
   .work-container {
     margin-bottom: 5rem;
   }
@@ -679,7 +757,6 @@ footer .footer-social .footer-social__icons .fa-linkedin {
     grid-template-rows: repeat(2, 550px);
     gap: 3rem;
   }
-
   .aboutme-skills-container {
     display: grid;
     grid-template-columns: repeat(2, 320px);
@@ -690,7 +767,9 @@ footer .footer-social .footer-social__icons .fa-linkedin {
   .aboutme-skills-container .skills-card {
     height: 27.6rem;
   }
-
+  .aboutme-skills-container .skills-card .skills-subcard {
+    justify-content: space-around;
+  }
   .GIT-container {
     margin-bottom: 5rem;
   }
@@ -722,7 +801,6 @@ footer .footer-social .footer-social__icons .fa-linkedin {
   nav {
     margin: 0;
   }
-
   footer {
     margin-bottom: 5rem;
   }
@@ -739,12 +817,10 @@ footer .footer-social .footer-social__icons .fa-linkedin {
 footer .footer-social .footer-social__icons .fa-linkedin {
     font-size: 3.8rem;
   }
-
   .title-container {
     align-items: center;
     margin-bottom: 5rem;
   }
-
   .work-container {
     margin-bottom: 3rem;
   }
@@ -762,7 +838,6 @@ footer .footer-social .footer-social__icons .fa-linkedin {
     grid-template-rows: repeat(2, 550px);
     gap: 3rem;
   }
-
   .aboutme-skills-container {
     display: grid;
     justify-content: center;
@@ -791,7 +866,9 @@ footer .footer-social .footer-social__icons .fa-linkedin {
     width: 100%;
     height: 27.6rem;
   }
-
+  .aboutme-skills-container .skills-card .skills-subcard {
+    justify-content: space-around;
+  }
   .GIT-container {
     margin-bottom: 3rem;
   }
