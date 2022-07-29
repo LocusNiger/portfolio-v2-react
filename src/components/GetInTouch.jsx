@@ -1,11 +1,12 @@
 import GITTitles from "./Titles/GITTitles";
 import { useForm } from "@formspree/react";
+import Swal from "sweetalert2";
 
 export default function GetInTouch() {
   const [state, handleSubmit] = useForm("xpzbjryg");
 
   if (state.succeeded) {
-    alert("Thank you for contacting me, I will write to you soon!");
+    Swal.fire("Thank you for contacting me!", "I will write to you soon!", "success");
     form.reset();
   }
 

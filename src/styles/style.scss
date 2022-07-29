@@ -81,6 +81,21 @@ footer {
     }
   }
 }
+.swal2-title {
+  padding-top: 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 3rem;
+}
+.swal2-html-container {
+  font-size: 18px;
+}
+.swal2-styled.swal2-confirm {
+  font-size: 16px;
+}
+.swal2-success-ring {
+  font-size: 100%;
+}
 /* Contenedor de los titulos al inicio de la página */
 .title-container {
   display: flex;
