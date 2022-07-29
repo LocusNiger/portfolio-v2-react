@@ -8,7 +8,7 @@ export default function IntroTitles() {
         <h2 className="animate__animated animate__backInLeft">I build amazing</h2>
         <h3 className="animate__animated animate__backInLeft">web experiences.</h3>
         <p className="animate__animated animate__backInUp">
-          Front-end dev from <span>ARG</span>
+          FrontEnd dev from <span>ARG</span>
         </p>
       </section>
     </>
