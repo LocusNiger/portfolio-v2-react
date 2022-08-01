@@ -16,7 +16,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 4rem;
   .logo-container {
     align-self: center;
     margin-bottom: 4rem;
@@ -25,16 +24,16 @@ nav {
     }
   }
   .sections-container {
-    width: 85vw;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
     .section-btn {
       color: black;
-      width: 27vw;
+      width: auto;
       font-weight: 500;
-      font-size: 2.4rem;
-      height: 5rem;
+      font-size: 1.8rem;
       text-align: center;
+      height: 5rem;
     }
   }
 }
@@ -102,6 +101,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   padding-left: 4.2rem;
+  padding-right: 2rem;
   padding-top: 2rem;
   height: auto;
   top: 0;
@@ -431,6 +431,7 @@ footer {
         #email {
           padding: 0.5rem;
         }
+
         button {
           background-color: #fefffe;
           border: 1px solid black;
@@ -449,7 +450,45 @@ footer {
     }
   }
 }
-
+.articles-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .articles-title {
+    width: 32rem;
+    height: 9.6rem;
+    border: 3px solid #000;
+    background-color: #d9ef54;
+    border-radius: 0.4rem;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    .articles-title-texts {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1rem;
+      width: 32rem;
+      height: 9.6rem;
+      background-color: #fefffe;
+      border: 3px solid black;
+      border-radius: 0.4rem;
+      left: -13px;
+      top: -13px;
+      position: inherit;
+      .first-p {
+        text-align: center;
+        color: #000;
+        font-weight: 500;
+        font-size: 3rem;
+      }
+      .fa-newspaper {
+        color: #000;
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
 /* Botón CV */
 /* From uiverse.io by @barisdogansutcu */
 .download-btn-container {
@@ -613,6 +652,24 @@ footer {
       }
     }
   }
+  .articles-container {
+    margin-bottom: 5rem;
+    .articles-title {
+      width: 50rem;
+      height: 12rem;
+      margin-bottom: 3rem;
+      .articles-title-texts {
+        width: 50rem;
+        height: 12rem;
+        .first-p {
+          font-size: 3.7rem;
+        }
+        .fa-newspaper {
+          font-size: 3.1rem;
+        }
+      }
+    }
+  }
 }
 
 /* PC */
@@ -714,6 +771,20 @@ footer {
           textarea {
             padding: 1rem;
           }
+        }
+      }
+    }
+  }
+  .articles-container {
+    margin-bottom: 3rem;
+    .articles-title {
+      width: 50rem;
+      height: 12rem;
+      .articles-title-texts {
+        width: 50rem;
+        height: 12rem;
+        .first-p {
+          font-size: 3.7rem;
         }
       }
     }

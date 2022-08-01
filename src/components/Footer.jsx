@@ -38,6 +38,9 @@ export default function Footer() {
             <a href="https://www.linkedin.com/in/ivansanchez-frontend/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
+            <a href="https://medium.com/@sanchezivan.798" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-medium"></i>
+            </a>
           </div>
         </div>
       </footer>

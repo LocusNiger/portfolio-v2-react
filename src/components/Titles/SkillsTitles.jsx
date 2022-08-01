@@ -7,7 +7,7 @@ export default function SkillsTitles() {
           <p className="first-p">Skills</p>
           <i className="fa-solid fa-laptop-code"></i>
         </div>
-      </div>{" "}
+      </div>
     </>
   );
 }

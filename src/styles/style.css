@@ -207,7 +207,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 4rem;
 }
 nav .logo-container {
   align-self: center;
@@ -217,17 +216,17 @@ nav .logo-container .logo {
   width: 10rem;
 }
 nav .sections-container {
-  width: 85vw;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-around;
 }
 nav .sections-container .section-btn {
   color: black;
-  width: 27vw;
+  width: auto;
   font-weight: 500;
-  font-size: 2.4rem;
-  height: 5rem;
+  font-size: 1.8rem;
   text-align: center;
+  height: 5rem;
 }
 
 /* Pie de página */
@@ -299,6 +298,7 @@ footer .footer-social .footer-social__icons .fa-linkedin {
   flex-direction: column;
   align-items: flex-start;
   padding-left: 4.2rem;
+  padding-right: 2rem;
   padding-top: 2rem;
   height: auto;
   top: 0;
@@ -649,6 +649,46 @@ footer .footer-social .footer-social__icons .fa-linkedin {
   transform: translateY(0);
 }
 
+.articles-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.articles-container .articles-title {
+  width: 32rem;
+  height: 9.6rem;
+  border: 3px solid #000;
+  background-color: #d9ef54;
+  border-radius: 0.4rem;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.articles-container .articles-title .articles-title-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  width: 32rem;
+  height: 9.6rem;
+  background-color: #fefffe;
+  border: 3px solid black;
+  border-radius: 0.4rem;
+  left: -13px;
+  top: -13px;
+  position: inherit;
+}
+.articles-container .articles-title .articles-title-texts .first-p {
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 3rem;
+}
+.articles-container .articles-title .articles-title-texts .fa-newspaper {
+  color: #000;
+  font-size: 2.5rem;
+}
+
 /* Botón CV */
 /* From uiverse.io by @barisdogansutcu */
 .download-btn-container {
@@ -815,6 +855,24 @@ footer .footer-social .footer-social__icons .fa-linkedin {
   .GIT-container .GIT-card .form-container form textarea {
     padding: 1rem;
   }
+  .articles-container {
+    margin-bottom: 5rem;
+  }
+  .articles-container .articles-title {
+    width: 50rem;
+    height: 12rem;
+    margin-bottom: 3rem;
+  }
+  .articles-container .articles-title .articles-title-texts {
+    width: 50rem;
+    height: 12rem;
+  }
+  .articles-container .articles-title .articles-title-texts .first-p {
+    font-size: 3.7rem;
+  }
+  .articles-container .articles-title .articles-title-texts .fa-newspaper {
+    font-size: 3.1rem;
+  }
 }
 /* PC */
 @media only screen and (min-width: 1025px) and (max-width: 1600px) {
@@ -912,5 +970,19 @@ footer .footer-social .footer-social__icons .fa-linkedin {
   }
   .GIT-container .GIT-card .form-container form textarea {
     padding: 1rem;
+  }
+  .articles-container {
+    margin-bottom: 3rem;
+  }
+  .articles-container .articles-title {
+    width: 50rem;
+    height: 12rem;
+  }
+  .articles-container .articles-title .articles-title-texts {
+    width: 50rem;
+    height: 12rem;
+  }
+  .articles-container .articles-title .articles-title-texts .first-p {
+    font-size: 3.7rem;
   }
 }/*# sourceMappingURL=style.css.map */
