@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <>
@@ -7,24 +10,24 @@ export default function Footer() {
           <div className="linea"></div>
           <ul>
             <li>
-              <a className="footer-link" href="#works">
+              <Link className="footer-link" to="/works">
                 Works
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="footer-link" href="#aboutme">
+              <Link className="footer-link" to="/aboutMe-skills">
                 About Me
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="footer-link" href="#skills">
+              <Link className="footer-link" to="/aboutMe-skills">
                 Skills
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="footer-link" href="#GIT">
+              <Link className="footer-link" to="/contact">
                 Get in touch
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -36,10 +39,10 @@ export default function Footer() {
               <i className="fab fa-github"></i>
             </a>
             <a href="https://www.linkedin.com/in/ivansanchez-frontend/" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </a>
             <a href="https://medium.com/@sanchezivan.798" target="_blank" rel="noopener noreferrer">
-              <i className="fa-brands fa-medium"></i>
+              <FontAwesomeIcon icon="fa-brands fa-medium" />
             </a>
           </div>
         </div>
