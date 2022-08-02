@@ -21,6 +21,17 @@ export default function Work() {
           />
           {/* <!--------------------------------------------------------------> */}
           <ProjectCard
+            img="./img/project-6.png"
+            title="Movies App"
+            description="SPA for the 'Alkemy React Skill Up'. It has login authentication, dynamic routes, 'favorites' function for each movie."
+            tec1="React"
+            tec2="Tailwind"
+            tec3="ReactRouter"
+            deployLink="https://skill-up-react-alkemy.vercel.app/"
+            repoLink="https://github.com/LocusNiger/skill-up-react-alkemy"
+          />
+          {/* <!--------------------------------------------------------------> */}
+          <ProjectCard
             img="./img/project-4.png"
             title="Giffy"
             description="This project is a GIF searcher in which I used the Giphy API."
@@ -41,28 +52,6 @@ export default function Work() {
             tec3="Bootstrap"
             deployLink="https://locusniger.github.io/Puppina_Accesorios/"
             repoLink="https://github.com/LocusNiger/Puppina_Accesorios"
-          />
-          {/* <!--------------------------------------------------------------> */}
-          <ProjectCard
-            img="./img/project-2.png"
-            title="Tip Calculator"
-            description="Calculate the correct tip and the total cost of the bill per person with this Tip Calculator!"
-            tec1="HTML"
-            tec2="Sass"
-            tec3="JavaScript"
-            deployLink="https://locusniger.github.io/tip-calc/"
-            repoLink="https://github.com/LocusNiger/tip-calc"
-          />
-          {/* <!--------------------------------------------------------------> */}
-          <ProjectCard
-            img="./img/project-1.png"
-            title="Expense Tracker"
-            description={`Expense Tracker to have everything in order.`}
-            tec1="HTML"
-            tec2="Sass"
-            tec3="JavaScript"
-            deployLink="https://locusniger.github.io/expense-tracker/"
-            repoLink="https://github.com/LocusNiger/expense-tracker"
           />
           {/* <!--------------------------------------------------------------> */}
         </div>
