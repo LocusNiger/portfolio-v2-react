@@ -1,29 +1,27 @@
-import { Link } from "react-router-dom";
-
 export default function Header() {
   return (
     <>
       <header>
         <nav className="animate__animated animate__fadeInDown">
           <div className="logo-container">
-            <Link to="/">
+            <a href="/">
               <i className="fa-solid fa-code icon-logo"></i>
               <img src="./img/logo-robot.png" alt="Logo de la página" className="logo" />
-            </Link>
+            </a>
           </div>
           <div className="sections-container">
-            <Link to="/works">
+            <a href="#works">
               <p className="section-btn">Works</p>
-            </Link>
-            <Link to="/aboutMe-skills">
+            </a>
+            <a href="#aboutme">
               <p className="section-btn">About me</p>
-            </Link>
-            <Link to="/contact">
+            </a>
+            <a href="#skills">
+              <p className="section-btn">Skills</p>
+            </a>
+            <a href="#GIT">
               <p className="section-btn">Contact</p>
-            </Link>
-            <Link to="/articles">
-              <p className="section-btn">Articles</p>
-            </Link>
+            </a>
           </div>
         </nav>
       </header>

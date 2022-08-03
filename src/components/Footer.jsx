@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -10,24 +9,24 @@ export default function Footer() {
           <div className="linea"></div>
           <ul>
             <li>
-              <Link className="footer-link" to="/works">
+              <a className="footer-link" href="#works">
                 Works
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="footer-link" to="/aboutMe-skills">
+              <a className="footer-link" href="#aboutme">
                 About Me
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="footer-link" to="/aboutMe-skills">
+              <a className="footer-link" href="#skills">
                 Skills
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="footer-link" to="/contact">
+              <a className="footer-link" href="#GIT">
                 Get in touch
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
