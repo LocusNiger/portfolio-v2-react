@@ -10,17 +10,6 @@ export default function Work() {
         <div className="cards-container">
           {/* <!--------------------------------------------------------------> */}
           <ProjectCard
-            img="./img/project-5.png"
-            title="My portfolio"
-            description="This is the project in which I invested the most time in the design. It reflects the style of websites I try to create. I hope you like it!"
-            tec1="React"
-            tec2="Sass"
-            tec3="JavaScript"
-            deployLink="https://ivansanchez-portfolio.vercel.app/"
-            repoLink="https://github.com/LocusNiger/portfolio-v2-react"
-          />
-          {/* <!--------------------------------------------------------------> */}
-          <ProjectCard
             img="./img/project-6.png"
             title="Movies App"
             description="SPA for the 'Alkemy React Skill Up'."
@@ -30,6 +19,18 @@ export default function Work() {
             deployLink="https://trending-movies-and-series.vercel.app/"
             repoLink="https://github.com/LocusNiger/movies-series-pwa"
           />
+          {/* <!--------------------------------------------------------------> */}
+          <ProjectCard
+            img="./img/project-5.png"
+            title="My portfolio"
+            description="This is the project in which I invested the most time in the design. It reflects the style of websites I try to create. I hope you like it!"
+            tec1="React"
+            tec2="Sass"
+            tec3="JavaScript"
+            deployLink="https://ivansanchez-portfolio.vercel.app/"
+            repoLink="https://github.com/LocusNiger/portfolio-v2-react"
+          />
+
           {/* <!--------------------------------------------------------------> */}
           <ProjectCard
             img="./img/project-4.png"
