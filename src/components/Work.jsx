@@ -23,12 +23,12 @@ export default function Work() {
           <ProjectCard
             img="./img/project-6.png"
             title="Movies App"
-            description="SPA for the 'Alkemy React Skill Up'. It has login authentication, dynamic routes, 'favorites' function for each movie."
+            description="SPA for the 'Alkemy React Skill Up'."
             tec1="React"
             tec2="Tailwind"
             tec3="ReactRouter"
-            deployLink="https://skill-up-react-alkemy.vercel.app/"
-            repoLink="https://github.com/LocusNiger/skill-up-react-alkemy"
+            deployLink="https://trending-movies-and-series.vercel.app/"
+            repoLink="https://github.com/LocusNiger/movies-series-pwa"
           />
           {/* <!--------------------------------------------------------------> */}
           <ProjectCard
