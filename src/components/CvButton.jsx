@@ -25,7 +25,7 @@ export default function CvButton() {
           </div>
           <div className="download">
             <a
-              href="https://drive.google.com/uc?id=13EbeufIg7bCcflvthX9VTJM__DhBVFaL&export=download"
+              href="https://drive.google.com/file/d/15JKeJ7j2KKrm6LOStWh7DPqji6jj5EDM/view?usp=sharing"
               rel="noopener noreferrer"
               className="cv-link"
             >
